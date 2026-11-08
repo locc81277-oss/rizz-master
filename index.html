@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizz Master ✨ – Nghệ Thuật Chinh Phục</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700;800&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== CURSOR GLOW EFFECT ===== -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- ===== FLOATING PARTICLES ===== -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">💜</span>
+                <span class="logo-text">Rizz<span class="logo-highlight">Master</span></span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#hero" class="nav-link active">Trang chủ</a>
+                <a href="#rules" class="nav-link">Bí quyết</a>
+                <a href="#levels" class="nav-link">Cấp độ</a>
+                <a href="#quotes" class="nav-link">Câu nói</a>
+                <a href="#cta" class="nav-link">Bắt đầu</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge reveal-up">
+                <span class="badge-dot"></span>
+                <span>Phiên bản 2026 — Cập nhật mới</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="title-line reveal-up" style="--delay: 0.1s">Nghệ Thuật</span>
+                <span class="title-line title-gradient reveal-up" style="--delay: 0.25s">Chinh Phục</span>
+                <span class="title-line reveal-up" style="--delay: 0.4s">Trái Tim Nàng</span>
+            </h1>
+
+            <p class="hero-desc reveal-up" style="--delay: 0.55s">
+                Không cần đẹp trai, không cần giàu có — chỉ cần hiểu đúng "luật chơi".<br>
+                Rizz là <em>nghệ thuật</em>, không phải may mắn.
+            </p>
+
+            <div class="hero-actions reveal-up" style="--delay: 0.7s">
+                <a href="#rules" class="btn btn-primary">
+                    <span>Khám phá ngay</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+                <a href="#levels" class="btn btn-ghost">
+                    <span>Xem cấp độ Rizz</span>
+                </a>
+            </div>
+
+            <div class="hero-stats reveal-up" style="--delay: 0.85s">
+                <div class="stat">
+                    <span class="stat-number" data-target="97">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Tỷ lệ thành công</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="12000">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Anh em đã Rizz thành công</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="50">0</span><span class="stat-suffix"></span>
+                    <span class="stat-label">Bí kíp luyện tập</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator reveal-up" style="--delay: 1.2s">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Cuộn xuống</span>
+        </div>
+    </section>
+
+    <!-- ===== GOLDEN RULES SECTION ===== -->
+    <section class="rules-section" id="rules">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">💡 BÍ QUYẾT VÀNG</span>
+                <h2 class="section-title reveal-up" style="--delay: 0.1s">
+                    7 Quy Tắc <span class="text-gradient">Bất Bại</span>
+                </h2>
+                <p class="section-desc reveal-up" style="--delay: 0.2s">
+                    Nắm vững những nguyên tắc này, bạn đã đi trước 90% đàn ông ngoài kia.
+                </p>
+            </div>
+
+            <div class="rules-grid">
+                <div class="rule-card reveal-up" style="--delay: 0.1s">
+                    <div class="rule-number">01</div>
+                    <div class="rule-icon">👁️</div>
+                    <h3>Giao Tiếp Bằng Mắt</h3>
+                    <p>Nhìn thẳng vào mắt nàng khi nói chuyện — không phải nhìn chằm chằm, mà là sự <strong>tự tin dịu dàng</strong>. Đôi mắt nói nhiều hơn mọi lời ngọt ngào.</p>
+                    <div class="rule-glow"></div>
+                </div>
+
+                <div class="rule-card reveal-up" style="--delay: 0.2s">
+                    <div class="rule-number">02</div>
+                    <div class="rule-icon">😏</div>
+                    <h3>Nụ Cười Bí Ẩn</h3>
+                    <p>Đừng cười hở hết 32 cái răng. Hãy nở một nụ cười <strong>nửa miệng</strong> khi nghe nàng nói — nó gợi lên sự quyến rũ và bí ẩn khó cưỡng.</p>
+                    <div class="rule-glow"></div>
+                </div>
+
+                <div class="rule-card reveal-up" style="--delay: 0.3s">
+                    <div class="rule-number">03</div>
+                    <div class="rule-icon">🎯</div>
+                    <h3>Push & Pull</h3>
+                    <p>Khen nàng rồi trêu nhẹ. Kéo lại rồi đẩy ra. Tạo cảm giác <strong>"anh ấy thích mình thật không?"</strong> — sự tò mò chính là mồi câu mạnh nhất.</p>
+                    <div class="rule-glow"></div>
+                </div>
+
+                <div class="rule-card reveal-up" style="--delay: 0.15s">
+                    <div class="rule-number">04</div>
+                    <div class="rule-icon">🗣️</div>
+                    <h3>Giọng Nói Trầm & Chậm</h3>
+                    <p>Hạ giọng xuống nửa tone. Nói <strong>chậm hơn 30%</strong>. Không vội, không cuống. Giọng nói trầm ấm toát lên sự chững chạc và quyền lực.</p>
+                    <div class="rule-glow"></div>
+                </div>
+
+                <div class="rule-card reveal-up" style="--delay: 0.25s">
+                    <div class="rule-number">05</div>
+                    <div class="rule-icon">🧲</div>
+                    <h3>Đừng Quá Dễ Dãi</h3>
+                    <p>Đừng reply tin nhắn ngay lập tức. Đừng luôn nói "OK". Hãy để nàng <strong>tự tìm đến bạn</strong> — giá trị con người nằm ở sự khan hiếm.</p>
+                    <div class="rule-glow"></div>
+                </div>
+
+                <div class="rule-card reveal-up" style="--delay: 0.35s">
+                    <div class="rule-number">06</div>
+                    <div class="rule-icon">💪</div>
+                    <h3>Ngôn Ngữ Cơ Thể</h3>
+                    <p>Vai mở rộng, lưng thẳng, bước chân chắc nịch. Chiếm không gian. <strong>Body language</strong> quyết định 55% ấn tượng đầu tiên — trước cả khi bạn nói.</p>
+                    <div class="rule-glow"></div>
+                </div>
+
+                <div class="rule-card rule-card-accent reveal-up" style="--delay: 0.2s">
+                    <div class="rule-number">07</div>
+                    <div class="rule-icon">💜</div>
+                    <h3>Chân Thành & Tôn Trọng</h3>
+                    <p>Rizz thật sự không phải là thao túng. Đó là sự tự tin đến từ <strong>sự chân thật</strong>. Hãy là phiên bản tốt nhất của chính mình — nàng sẽ cảm nhận được.</p>
+                    <div class="rule-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MARQUEE SECTION ===== -->
+    <section class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-track">
+                <span>✦ CONFIDENT ✦ CHARMING ✦ MYSTERIOUS ✦ RESPECTFUL ✦ RIZZ GOD ✦ SMOOTH TALKER ✦ GENTLEMAN ✦ MAGNETIC ✦ UNSTOPPABLE ✦</span>
+                <span>✦ CONFIDENT ✦ CHARMING ✦ MYSTERIOUS ✦ RESPECTFUL ✦ RIZZ GOD ✦ SMOOTH TALKER ✦ GENTLEMAN ✦ MAGNETIC ✦ UNSTOPPABLE ✦</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RIZZ LEVELS ===== -->
+    <section class="levels-section" id="levels">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">📊 CẤP ĐỘ RIZZ</span>
+                <h2 class="section-title reveal-up" style="--delay: 0.1s">
+                    Bạn Đang Ở <span class="text-gradient">Level Nào?</span>
+                </h2>
+                <p class="section-desc reveal-up" style="--delay: 0.2s">
+                    Hành trình từ "anh ơi em có bạn trai rồi" đến "anh có thể cho em số điện thoại không?"
+                </p>
+            </div>
+
+            <div class="levels-timeline">
+                <div class="timeline-line"></div>
+
+                <div class="level-item reveal-left" style="--delay: 0.1s">
+                    <div class="level-dot level-dot-1"></div>
+                    <div class="level-content">
+                        <div class="level-badge level-badge-1">LV. 1</div>
+                        <h3>Noob Rizz 😶</h3>
+                        <p>Thấy gái đẹp là đứng hình. Chưa dám bắt chuyện. Nhắn tin thì "ê, khỏe không?". Bị seen là mất ngủ 3 đêm.</p>
+                        <div class="level-tag">Giai đoạn: Đang tập nói chuyện</div>
+                    </div>
+                </div>
+
+                <div class="level-item level-item-right reveal-right" style="--delay: 0.2s">
+                    <div class="level-dot level-dot-2"></div>
+                    <div class="level-content">
+                        <div class="level-badge level-badge-2">LV. 2</div>
+                        <h3>Decent Rizz 🙂</h3>
+                        <p>Đã biết duy trì cuộc trò chuyện. Bắt đầu tạo được sự thoải mái. Đôi lúc khiến nàng cười — nhưng chưa đủ "thẳm".</p>
+                        <div class="level-tag">Giai đoạn: Đang gây ấn tượng</div>
+                    </div>
+                </div>
+
+                <div class="level-item reveal-left" style="--delay: 0.3s">
+                    <div class="level-dot level-dot-3"></div>
+                    <div class="level-content">
+                        <div class="level-badge level-badge-3">LV. 3</div>
+                        <h3>Sigma Rizz 😎</h3>
+                        <p>Tự tin phát ngôn, biết push-pull, biết khi nào nên im lặng. Nàng bắt đầu chủ động nhắn tin cho bạn. "Anh đang làm gì đấy?"</p>
+                        <div class="level-tag">Giai đoạn: Nàng đã quan tâm</div>
+                    </div>
+                </div>
+
+                <div class="level-item level-item-right reveal-right" style="--delay: 0.4s">
+                    <div class="level-dot level-dot-4"></div>
+                    <div class="level-content">
+                        <div class="level-badge level-badge-4">LV. MAX</div>
+                        <h3>Unspoken Rizz 🔥👑</h3>
+                        <p>Không cần nói gì — chỉ cần xuất hiện. Phong thái, ánh mắt, năng lượng của bạn đã nói lên tất cả. Nàng tự đến. <strong>Đây là đỉnh cao.</strong></p>
+                        <div class="level-tag">Giai đoạn: Bậc thầy chinh phục</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RIZZ QUOTES ===== -->
+    <section class="quotes-section" id="quotes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">💬 CÂU NÓI HUYỀN THOẠI</span>
+                <h2 class="section-title reveal-up" style="--delay: 0.1s">
+                    Smooth Lines <span class="text-gradient">Đỉnh Kout</span>
+                </h2>
+                <p class="section-desc reveal-up" style="--delay: 0.2s">
+                    Những câu nói đúng lúc, đúng chỗ có thể thay đổi cả cuộc chơi.
+                </p>
+            </div>
+
+            <div class="quotes-carousel">
+                <div class="quote-card reveal-up" style="--delay: 0.1s">
+                    <div class="quote-mark">"</div>
+                    <p class="quote-text">Em có biết mình vừa phạm tội gì không? — Tội làm trái tim anh đập không theo nhịp bình thường.</p>
+                    <div class="quote-footer">
+                        <span class="quote-rating">🔥🔥🔥🔥🔥</span>
+                        <span class="quote-tag">Mức sát thương: Chí mạng</span>
+                    </div>
+                </div>
+
+                <div class="quote-card reveal-up" style="--delay: 0.2s">
+                    <div class="quote-mark">"</div>
+                    <p class="quote-text">Anh không tin vào tình yêu từ cái nhìn đầu tiên... cho đến 5 phút trước.</p>
+                    <div class="quote-footer">
+                        <span class="quote-rating">🔥🔥🔥🔥</span>
+                        <span class="quote-tag">Mức sát thương: Cao</span>
+                    </div>
+                </div>
+
+                <div class="quote-card reveal-up" style="--delay: 0.3s">
+                    <div class="quote-mark">"</div>
+                    <p class="quote-text">Nếu sắc đẹp là tội ác, thì em đang thụ án chung thân rồi.</p>
+                    <div class="quote-footer">
+                        <span class="quote-rating">🔥🔥🔥🔥🔥</span>
+                        <span class="quote-tag">Mức sát thương: Hủy diệt</span>
+                    </div>
+                </div>
+
+                <div class="quote-card reveal-up" style="--delay: 0.4s">
+                    <div class="quote-mark">"</div>
+                    <p class="quote-text">Anh lái xe giỏi lắm — nhưng vẫn bị em đưa vào ngõ cụt tình yêu.</p>
+                    <div class="quote-footer">
+                        <span class="quote-rating">🔥🔥🔥</span>
+                        <span class="quote-tag">Mức sát thương: Trung bình</span>
+                    </div>
+                </div>
+
+                <div class="quote-card reveal-up" style="--delay: 0.5s">
+                    <div class="quote-mark">"</div>
+                    <p class="quote-text">Em thích cà phê đen hay cà phê sữa? — Anh thì chỉ thích cà phê với em.</p>
+                    <div class="quote-footer">
+                        <span class="quote-rating">🔥🔥🔥🔥</span>
+                        <span class="quote-tag">Mức sát thương: Ngọt ngào</span>
+                    </div>
+                </div>
+
+                <div class="quote-card reveal-up" style="--delay: 0.6s">
+                    <div class="quote-mark">"</div>
+                    <p class="quote-text">Bố mẹ anh dặn phải giữ gìn của quý — nên anh tới đây giữ em.</p>
+                    <div class="quote-footer">
+                        <span class="quote-rating">🔥🔥🔥🔥🔥</span>
+                        <span class="quote-tag">Mức sát thương: Hạ gục</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA SECTION ===== -->
+    <section class="cta-section" id="cta">
+        <div class="cta-bg-glow"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title reveal-up">
+                    Sẵn Sàng Trở Thành<br>
+                    <span class="text-gradient">Rizz God?</span> 👑
+                </h2>
+                <p class="cta-desc reveal-up" style="--delay: 0.15s">
+                    Nhập email để nhận <strong>Bộ 50 câu Rizz huyền thoại</strong> + Ebook "Tâm lý học tình yêu" hoàn toàn miễn phí.
+                </p>
+
+                <form class="cta-form reveal-up" style="--delay: 0.3s" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" placeholder="Tên hiệp sĩ Rizz của bạn" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email để nhận bí kíp" class="form-input" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Nhận Bí Kíp Miễn Phí 🚀</span>
+                    </button>
+                    <p class="form-note">🔒 Cam kết bảo mật • Không spam • Hủy bất kỳ lúc nào</p>
+                </form>
+
+                <div class="cta-success" id="ctaSuccess">
+                    <div class="success-icon">🎉</div>
+                    <h3>Chào mừng Rizz Master mới!</h3>
+                    <p>Kiểm tra hộp thư email để nhận bí kíp nhé.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">💜</span>
+                    <span class="logo-text">Rizz<span class="logo-highlight">Master</span></span>
+                    <p>Biến mọi anh em thành bậc thầy chinh phục — bằng sự tự tin và chân thành.</p>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2026 RizzMaster. Made with 💜 & nhiều cà phê ☕</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
